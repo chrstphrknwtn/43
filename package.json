@@ -4,12 +4,13 @@
   "description": "The number",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "test-watch": "ava --watch --fail-fast"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/chrstphrknwtn/43.git"
-  }
+  },
   "author": "@chrstphrknwtn",
   "license": "MIT",
   "devDependencies": {
